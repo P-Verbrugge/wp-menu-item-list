@@ -1,4 +1,5 @@
-unction getMenuItemsByMenuSlugAndParentId($menuSlug, $parentId) {
+<?php
+function getMenuItemsByMenuSlugAndParentId($menuSlug, $parentId) {
     $args = [
         'post_type' => 'nav_menu_item',
         'meta_key' => '_menu_item_menu_item_parent',
